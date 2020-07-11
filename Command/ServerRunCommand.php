@@ -11,8 +11,8 @@
 
 namespace Cototal\Bundle\WebServerBundle\Command;
 
-use Symfony\Bundle\WebServerBundle\WebServer;
-use Symfony\Bundle\WebServerBundle\WebServerConfig;
+use Cototal\Bundle\WebServerBundle\WebServer;
+use Cototal\Bundle\WebServerBundle\WebServerConfig;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Console\Input\InputInterface;

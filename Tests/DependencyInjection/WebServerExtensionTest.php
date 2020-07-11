@@ -13,7 +13,7 @@ namespace Cototal\Bundle\WebServerBundle\Tests\DependencyInjection;
 
 use PHPUnit\Framework\TestCase;
 use Symfony\Bridge\Monolog\Formatter\ConsoleFormatter;
-use Symfony\Bundle\WebServerBundle\DependencyInjection\WebServerExtension;
+use Cototal\Bundle\WebServerBundle\DependencyInjection\WebServerExtension;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 
 class WebServerExtensionTest extends TestCase
