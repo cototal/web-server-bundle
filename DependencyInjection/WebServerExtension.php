@@ -1,7 +1,7 @@
 <?php
 
 /*
- * This file is part of the Symfony package.
+ * This file was part of the Symfony package.
  *
  * (c) Fabien Potencier <fabien@symfony.com>
  *
@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\Bundle\WebServerBundle\DependencyInjection;
+namespace Cototal\Bundle\WebServerBundle\DependencyInjection;
 
 use Symfony\Bridge\Monolog\Formatter\ConsoleFormatter;
 use Symfony\Component\Config\FileLocator;
@@ -19,8 +19,6 @@ use Symfony\Component\DependencyInjection\Loader\XmlFileLoader;
 
 /**
  * @author Robin Chalas <robin.chalas@gmail.com>
- *
- * @deprecated since Symfony 4.4, to be removed in 5.0; the new Symfony local server has more features, you can use it instead.
  */
 class WebServerExtension extends Extension
 {

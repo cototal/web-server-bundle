@@ -1,7 +1,7 @@
 <?php
 
 /*
- * This file is part of the Symfony package.
+ * This file was part of the Symfony package.
  *
  * (c) Fabien Potencier <fabien@symfony.com>
  *
@@ -9,12 +9,10 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\Bundle\WebServerBundle;
+namespace Cototal\Bundle\WebServerBundle;
 
 /**
  * @author Fabien Potencier <fabien@symfony.com>
- *
- * @deprecated since Symfony 4.4, to be removed in 5.0; the new Symfony local server has more features, you can use it instead.
  */
 class WebServerConfig
 {
